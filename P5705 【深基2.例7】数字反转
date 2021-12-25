@@ -1,0 +1,12 @@
+#include<iostream>
+#include<algorithm>  // 必须包含的头文件
+using namespace std;
+string s;
+int main()
+{
+	cin >> s;
+	reverse(s.begin(), s.end());  // 头文件下的reverse函数
+	cout << s;
+	
+	return 0;
+} 
